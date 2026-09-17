@@ -36,7 +36,7 @@ Stored in an isolated text file (data_beneficiary.txt).
 📜 Automated Audit Logging:
 
 Automatically records all financial transactions with exact dates and timestamps to data_transaction.txt.
-[Apoorv's Banking System](BANK.png)
+![Apoorv's Banking System](BANK.png)
 
 ⚙️ Requirements
 Python 3.8+ installed on your system
