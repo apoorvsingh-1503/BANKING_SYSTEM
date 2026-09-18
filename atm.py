@@ -194,7 +194,7 @@ def login():
         print("CREATE AN ACCOUNT TO CONTINUE")
         return False
     a = 3
-    while a >= 3:
+    while a >0:
         epin = input("ENTER YOUR STANDARD PIN : ")
         if epin == data["pin"]:
             print("LOGIN SUCCESSFUL!")
