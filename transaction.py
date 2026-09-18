@@ -2,7 +2,6 @@ from datetime import datetime
 from cryptography import encrypt_data, decrypt_data
 from configuration import File_Transaction
 import os
-
 def transaction_log(message: str):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     log_entry = f"[{timestamp}] {message}\n"
