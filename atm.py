@@ -2,6 +2,7 @@ from cryptography.fernet import Fernet
 from datetime import datetime
 import os
 import random
+import string
 
 # FILES 
 File_Account = "data_account.enc"
@@ -36,7 +37,7 @@ def acc_generator():
     return "".join(random.choices(string.digits, k=10))
 
 def hs_pin_generator():
-    return "".join(random.choices(string.digits, k=10))
+    return "".join(random.choices(string.digits, k=4))
 
 def transaction_log(message):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
