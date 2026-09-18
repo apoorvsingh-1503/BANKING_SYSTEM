@@ -17,7 +17,7 @@ Self-Destruct Protocol: Automatically wipes all account and transaction data fil
 
 👤 Account Creation & Management:
 
-Automatically generates a random 10-digit account number and a secure alphanumeric High-Security PIN.
+Automatically generates a random 10-digit account number and a secure numeric High-Security PIN.
 
 Allows standard PIN updates and tracks initial balances.
 
@@ -35,16 +35,17 @@ Stored in an isolated text file (data_beneficiary.txt).
 
 📜 Automated Audit Logging:
 
-Automatically records all financial transactions with exact dates and timestamps to data_transaction.txt.
+Automatically records all financial transactions with exact dates and timestamps to data_transaction.enc.
 ![Apoorv's Banking System](BANK.png)
 
 ⚙️ Requirements
 Python 3.8+ installed on your system
+use pip install cryptography for encrypting all files
 
 No external third-party packages required (uses only built-in standard libraries: os, random, string, datetime)
 📝 Security Notes
 Keep your High-Security PIN (HS-PIN) and TPIN safe; they are required for critical modifications and money transfers.
-
+All data are stored in encrypted format.
 Failed security challenges will trigger an automatic wipe of local data files for safety.
 
 📄 License
