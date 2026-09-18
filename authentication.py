@@ -1,6 +1,5 @@
 from account import load_account_data, file_delete
 from dashboard import dashboard
-
 def login():
     data = load_account_data()
     if not data:
