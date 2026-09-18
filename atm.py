@@ -3,7 +3,6 @@ from datetime import datetime
 import os
 import random
 import string
-
 # FILES 
 File_Account = "data_account.enc"
 File_Transaction = "data_transaction.enc"
