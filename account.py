@@ -4,7 +4,7 @@ import string
 from datetime import datetime
 from cryptography import encrypt_data, decrypt_data
 from configuration import File_Account, File_Transaction
-from transaction import transaction_log   # or keep initial log here
+from transaction import transaction_log  # or keep initial log here
 
 def acc_generator():
     return "".join(random.choices(string.digits, k=10))
