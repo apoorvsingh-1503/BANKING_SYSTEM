@@ -11,7 +11,7 @@ def acc_generator():
     return"".join(random.choices(string.digits,k=10))
 
 def hs_pin_generator():
-    return"".join(random.choices(string.ascii_letters + string.digits,k=10))
+    return"".join(random.choices(string.digits,k=10))
 
 def transaction_log (message):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
