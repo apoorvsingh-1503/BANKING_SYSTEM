@@ -39,7 +39,7 @@ Automatically records all financial transactions with exact dates and timestamps
 ![Apoorv's Banking System](BANK.png)
 
 ⚙️ Requirements
-Python 3.8+ installed on your system
+Python 3.8+ installed on your system ;
 use pip install cryptography for encrypting all files
 
 No external third-party packages required (uses only built-in standard libraries: os, random, string, datetime)
