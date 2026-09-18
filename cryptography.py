@@ -1,7 +1,6 @@
 from cryptography.fernet import Fernet
 import os
 from configuration import Key_File
-
 def load_or_create_key():
     if not os.path.exists(Key_File):
         key = Fernet.generate_key()
