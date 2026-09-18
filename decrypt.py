@@ -3,7 +3,6 @@ from cryptography.fernet import Fernet
 # 1. Load the secret key
 with open("secret.key", "rb") as key_file:
     key = key_file.read()
-
 cipher = Fernet(key)
 
 # 2. Read the encrypted file (Change filename as needed)
