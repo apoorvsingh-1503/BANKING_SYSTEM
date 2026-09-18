@@ -1,7 +1,6 @@
 import os
 from cryptography import encrypt_data, decrypt_data
 from configuration import File_Beneficiary
-
 def add_beneficiary_to_file():
     b_name = input("Beneficiary Name: ")
     b_acc = input("Beneficiary A/c Number: ")
